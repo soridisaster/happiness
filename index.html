@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Индекс счастья</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+  	<meta name="description" content="main">
+  	<meta name="keywords" content="main">
+  	<html lang="ru">
+  	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<!-- МОДАЛЬНОЕ ОКНО -->
+	<div class="modal">
+		<div class="modalContent">
+      		<span class="closeModal">×</span>
+      		<p>Жизнь каждого человека представляет собой богатую палитру состояний, чувств и эмоций. Одним из значимых для каждого состояний выступает счастье. Известно, что счастье может детерминировать внешние отношения и выстраивать настроение города. Данный проект существует для того, чтобы выявить субъективные составляющие счастья, дать им количественную оценку, определить индекс счастья города Иннополис и понять, как удовлетворённость жизнью в городе влияет на счастье.</p>
+    	</div>
+	</div>
+	<!-- ЗАГОЛОВОК -->
+	<div id="header">
+		<div id="ach"><img id="achImg" src="user.png"></div>
+		<div id="user"> <img id="userImg" src="user.png"></div>
+	</div>
+	<!-- ИНФОГРАФИКА -->
+	<div id="infog">
+		<div id="infogMain">
+			*тут должна быть инфографика но пока хз как сделать ее*
+		</div>
+	</div>
+	<!-- ЧАСТЬ С ТЕСТОМ -->
+	
+	<div id="test">
+		<div >
+			<button class="button" onclick="(document.getElementById('testMain').style.display='block')">Пройти тест</button> 
+		</div>
+		<div id="testMain">
+    		<p class="nameq"> 1. Насколько счастливым Вы себя ощущаете? </p>
+    		<p class="surq">(Дайте оценку по шкале от 1 до 5, где 1 - самая низкая оценка «Совершенно не счастлив», а 5 – самая высокая «Максимально счастлив»)</p>
+    		<div class ="question">
+				<input type="radio" name="q1" id="q1" ><label class="form-check-label" for="q1_1">1</label>
+				<input type="radio" name="q1" id="q1" ><label class="form-check-label" for="q1_2">2</label>
+				<input type="radio" name="q1" id="q1" ><label class="form-check-label" for="q1_3">3</label>
+				<input type="radio" name="q1" id="q1" ><label class="form-check-label" for="q1_4">4</label>
+				<input type="radio" name="q1" id="q1" ><label class="form-check-label" for="q1_5">5</label>
+			</div>
+
+			<p class="nameq"> 2. Насколько Вы удовлетворены следующими составляющими? </p>
+    		<p class="surq">(Дайте оценку по шкале от 1 до 5, где 1 - самая низкая оценка «Совершенно не удовлетворен», а 5 – самая высокая «Полностью удовлетворен», отметьте один в каждой строке)</p>
+    		<div class ="question">
+    			<p class="nameq">Своим местом жительства</p>
+				<input type="radio" name="q2" id="q2" ><label class="form-check-label" for="q2_1">1</label>
+				<input type="radio" name="q2" id="q2" ><label class="form-check-label" for="q2_2">2</label>
+				<input type="radio" name="q2" id="q2" ><label class="form-check-label" for="q2_3">3</label>
+				<input type="radio" name="q2" id="q2" ><label class="form-check-label" for="q2_4">4</label>
+				<input type="radio" name="q2" id="q2" ><label class="form-check-label" for="q2_5">5</label>
+				<input type="radio" name="q2" id="q2" ><label class="form-check-label" for="q2_6">Затрудняюсь ответить</label>
+			</div>
+			<div class ="question">
+    			<p class="nameq">Своим здоровьем</p>
+				<input type="radio" name="q2.2" id="q2.2" ><label class="form-check-label" for="q2.2_1">1</label>
+				<input type="radio" name="q2.2" id="q2.2" ><label class="form-check-label" for="q2.2_2">2</label>
+				<input type="radio" name="q2.2" id="q2.2" ><label class="form-check-label" for="q2.2_3">3</label>
+				<input type="radio" name="q2.2" id="q2.2" ><label class="form-check-label" for="q2.2_4">4</label>
+				<input type="radio" name="q2.2" id="q2.2" ><label class="form-check-label" for="q2.2_5">5</label>
+				<input type="radio" name="q2.2" id="q2.2" ><label class="form-check-label" for="q2.2_6">Затрудняюсь ответить</label>
+			</div>
+			<div class ="question">
+    			<p class="nameq">Отношениями с окружающими</p>
+				<input type="radio" name="q2.3" id="q2.3" ><label class="form-check-label" for="q2.3_1">1</label>
+				<input type="radio" name="q2.3" id="q2.3" ><label class="form-check-label" for="q2.3_2">2</label>
+				<input type="radio" name="q2.3" id="q2.3" ><label class="form-check-label" for="q2.3_3">3</label>
+				<input type="radio" name="q2.3" id="q2.3" ><label class="form-check-label" for="q2.3_4">4</label>
+				<input type="radio" name="q2.3" id="q2.3" ><label class="form-check-label" for="q2.3_5">5</label>
+				<input type="radio" name="q2.3" id="q2.3" ><label class="form-check-label" for="q2.3_6">Затрудняюсь ответить</label>
+			</div>
+			<div class ="question">
+    			<p class="nameq">Ожиданиями стабильности будущего</p>
+				<input type="radio" name="q2.4" id="q2.4" ><label class="form-check-label" for="q2.4_1">1</label>
+				<input type="radio" name="q2.4" id="q2.4" ><label class="form-check-label" for="q2.4_2">2</label>
+				<input type="radio" name="q2.4" id="q2.4" ><label class="form-check-label" for="q2.4_3">3</label>
+				<input type="radio" name="q2.4" id="q2.4" ><label class="form-check-label" for="q2.4_4">4</label>
+				<input type="radio" name="q2.4" id="q2.4" ><label class="form-check-label" for="q2.4_5">5</label>
+				<input type="radio" name="q2.4" id="q2.4" ><label class="form-check-label" for="q2.4_6">Затрудняюсь ответить</label>
+			</div>
+			<div class ="question">
+    			<p class="nameq">Работой/карьерой</p>
+				<input type="radio" name="q2.5" id="q2.5" ><label class="form-check-label" for="q2.5_1">1</label>
+				<input type="radio" name="q2.5" id="q2.5" ><label class="form-check-label" for="q2.5_2">2</label>
+				<input type="radio" name="q2.5" id="q2.5" ><label class="form-check-label" for="q2.5_3">3</label>
+				<input type="radio" name="q2.5" id="q2.5" ><label class="form-check-label" for="q2.5_4">4</label>
+				<input type="radio" name="q2.5" id="q2.5" ><label class="form-check-label" for="q2.5_5">5</label>
+				<input type="radio" name="q2.5" id="q2.5" ><label class="form-check-label" for="q2.5_6">Затрудняюсь ответить</label>
+			</div>
+			<div class ="question">
+    			<p class="nameq">Безопасностью</p>
+				<input type="radio" name="q2.6" id="q2.6" ><label class="form-check-label" for="q2.6_1">1</label>
+				<input type="radio" name="q2.6" id="q2.6" ><label class="form-check-label" for="q2.6_2">2</label>
+				<input type="radio" name="q2.6" id="q2.6" ><label class="form-check-label" for="q2.6_3">3</label>
+				<input type="radio" name="q2.6" id="q2.6" ><label class="form-check-label" for="q2.6_4">4</label>
+				<input type="radio" name="q2.6" id="q2.6" ><label class="form-check-label" for="q2.6_5">5</label>
+				<input type="radio" name="q2.6" id="q2.6" ><label class="form-check-label" for="q2.6_6">Затрудняюсь ответить</label>
+			</div>
+			<div class ="question">
+    			<p class="nameq">Экологией города</p>
+				<input type="radio" name="q2.7" id="q2.7" ><label class="form-check-label" for="q2.7_1">1</label>
+				<input type="radio" name="q2.7" id="q2.7" ><label class="form-check-label" for="q2.7_2">2</label>
+				<input type="radio" name="q2.7" id="q2.7" ><label class="form-check-label" for="q2.7_3">3</label>
+				<input type="radio" name="q2.7" id="q2.7" ><label class="form-check-label" for="q2.7_4">4</label>
+				<input type="radio" name="q2.7" id="q2.7" ><label class="form-check-label" for="q2.7_5">5</label>
+				<input type="radio" name="q2.7" id="q2.7" ><label class="form-check-label" for="q2.7_6">Затрудняюсь ответить</label>
+			</div>
+			<div class ="question">
+    			<p class="nameq">Возможностями самореализации</p>
+				<input type="radio" name="q2.8" id="q2.8" ><label class="form-check-label" for="q2.8_1">1</label>
+				<input type="radio" name="q2.8" id="q2.8" ><label class="form-check-label" for="q2.8_2">2</label>
+				<input type="radio" name="q2.8" id="q2.8" ><label class="form-check-label" for="q2.8_3">3</label>
+				<input type="radio" name="q2.8" id="q2.8" ><label class="form-check-label" for="q2.8_4">4</label>
+				<input type="radio" name="q2.8" id="q2.8" ><label class="form-check-label" for="q2.8_5">5</label>
+				<input type="radio" name="q2.8" id="q2.8" ><label class="form-check-label" for="q2.8_6">Затрудняюсь ответить</label>
+			</div>
+			<div class ="question">
+    			<p class="nameq">Возможностью заниматься хобби</p>
+				<input type="radio" name="q2.9" id="q2.9" ><label class="form-check-label" for="q2.9_1">1</label>
+				<input type="radio" name="q2.9" id="q2.9" ><label class="form-check-label" for="q2.9_2">2</label>
+				<input type="radio" name="q2.9" id="q2.9" ><label class="form-check-label" for="q2.9_3">3</label>
+				<input type="radio" name="q2.9" id="q2.9" ><label class="form-check-label" for="q2.9_4">4</label>
+				<input type="radio" name="q2.9" id="q2.9" ><label class="form-check-label" for="q2.9_5">5</label>
+				<input type="radio" name="q2.9" id="q2.9" ><label class="form-check-label" for="q2.9_6">Затрудняюсь ответить</label>
+			</div>
+			<div class ="question">
+    			<p class="nameq">Доступными сервисами и качеством услуг</p>
+				<input type="radio" name="q2.10" id="q2.10" ><label class="form-check-label" for="q2.10_1">1</label>
+				<input type="radio" name="q2.10" id="q2.10" ><label class="form-check-label" for="q2.10_2">2</label>
+				<input type="radio" name="q2.10" id="q2.10" ><label class="form-check-label" for="q2.10_3">3</label>
+				<input type="radio" name="q2.10" id="q2.10" ><label class="form-check-label" for="q2.10_4">4</label>
+				<input type="radio" name="q2.10" id="q2.10" ><label class="form-check-label" for="q2.10_5">5</label>
+				<input type="radio" name="q2.10" id="q2.10" ><label class="form-check-label" for="q2.10_6">Затрудняюсь ответить</label>
+			</div>
+			<div class ="question">
+    			<p class="nameq">Возможностью свободно выражаться и проявлять себя</p>
+				<input type="radio" name="q2.11" id="q2.11" ><label class="form-check-label" for="q2.11_1">1</label>
+				<input type="radio" name="q2.11" id="q2.11" ><label class="form-check-label" for="q2.11_2">2</label>
+				<input type="radio" name="q2.11" id="q2.11" ><label class="form-check-label" for="q2.11_3">3</label>
+				<input type="radio" name="q2.11" id="q2.11" ><label class="form-check-label" for="q2.11_4">4</label>
+				<input type="radio" name="q2.11" id="q2.11" ><label class="form-check-label" for="q2.11_5">5</label>
+				<input type="radio" name="q2.11" id="q2.11" ><label class="form-check-label" for="q2.11_6">Затрудняюсь ответить</label>
+			</div>
+			<div class ="question">
+    			<p class="nameq">Инфраструктурой города (дороги, тротуары, парковки, зоны отдыха)</p>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_1">1</label>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_2">2</label>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_3">3</label>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_4">4</label>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_5">5</label>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_6">Затрудняюсь ответить</label>
+			</div>
+
+			<p class="nameq"> 3. Как изменилась удовлетворенность Вашей жизнью по сравнению с предыдущим местом жительства? </p>
+    		<div class ="question1">
+				<div><input type="radio" name="q3" id="q3" ><label class="form-check-label" for="q3_1">1. Улучшилась</label></div>
+				<div><input type="radio" name="q3" id="q3" ><label class="form-check-label" for="q3_2">2. Скорее улучшилась</label></div>
+				<div><input type="radio" name="q3" id="q3" ><label class="form-check-label" for="q3_3">3. Не изменилась</label></div>
+				<div><input type="radio" name="q3" id="q3" ><label class="form-check-label" for="q3_4">4. Скорее ухудшилась</label></div>
+				<div><input type="radio" name="q3" id="q3" ><label class="form-check-label" for="q3_5">5. Ухудшилась</label></div>
+				<div><input type="radio" name="q3" id="q3" ><label class="form-check-label" for="q3_6">6. Затрудняюсь ответить</label></div>
+			</div>
+
+			<p class="nameq"> 4. Что необходимо изменить в вашем городе в первую очередь? </p>
+			<p class="surq">(Максимально 3 варианта ответа)</p>
+    		<div class ="question">
+				<input type="text" name="q4" id="q4" placeholder="Введите текст">
+				
+			</div>
+			<p class="nameq"> 5. Насколько Вы удовлетворены своим текущим психоэмоцинальным состоянием? </p>
+    		<p class="surq">(Дайте оценку по шкале от 1 до 5, где 1 - самая низкая оценка «Совершенно не удовлетворен», а 5 – самая высокая «Полностью удовлетворен»)</p>
+    		<div class ="question" >
+				<input type="radio" name="q5" id="q5" ><label class="form-check-label" for="q5_1">1</label>
+				<input type="radio" name="q5" id="q5" ><label class="form-check-label" for="q5_2">2</label>
+				<input type="radio" name="q5" id="q5" ><label class="form-check-label" for="q5_3">3</label>
+				<input type="radio" name="q5" id="q5" ><label class="form-check-label" for="q5_4">4</label>
+				<input type="radio" name="q5" id="q5" ><label class="form-check-label" for="q5_5">5</label>
+			</div>
+
+			<p class="nameq"> 6. Насколько часто Вы испытываете следующие эмоции/чувства? </p>
+    		<p class="surq">(Дайте оценку по шкале от 1 до 10, где 1 - самая низкая оценка «Очень редко», а 10 – самая высокая «Очень часто», отметьте один в каждой строке)</p>
+			<div class ="question">
+    			<p class="nameq">ЗАПОЛНИ ЭТОТ ВОПРОС ТУТ ДОХЕРА</p>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_1">1</label>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_2">2</label>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_3">3</label>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_4">4</label>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_5">5</label>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_1">1</label>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_2">2</label>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_3">3</label>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_4">4</label>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_5">5</label>
+				<input type="radio" name="q2.12" id="q2.12" ><label class="form-check-label" for="q2.12_6">Затрудняюсь ответить</label>
+			</div>
+
+			<p class="nameq"> 7. Хотели бы Вы создать семью именно в этом городе? </p>
+    		<div class ="question">
+				<input type="radio" name="q7" id="q7" ><label class="form-check-label" for="q7_1">Да</label>
+				<input type="radio" name="q7" id="q7" ><label class="form-check-label" for="q7_2">Нет</label>
+				<input type="radio" name="q7" id="q7" ><label class="form-check-label" for="q7_3">Затрудняюсь ответить</label>
+			</div>
+
+			<p class="nameq"> 8. Хотели бы Вы встретить старость в этом городе? </p>
+    		<div class ="question">
+				<input type="radio" name="q8" id="q8" ><label class="form-check-label" for="q8_1">Да</label>
+				<input type="radio" name="q8" id="q8" ><label class="form-check-label" for="q8_2">Нет</label>
+				<input type="radio" name="q8" id="q8" ><label class="form-check-label" for="q8_3">Затрудняюсь ответить</label>
+			</div>
+
+			<p class="nameq"> 9. Хотели бы Вы, чтобы Ваши дети прожили свою жизнь в этом городе? </p>
+    		<div class ="question">
+				<input type="radio" name="q9" id="q9" ><label class="form-check-label" for="q9_1">Да</label>
+				<input type="radio" name="q9" id="q9" ><label class="form-check-label" for="q9_2">Нет</label>
+				<input type="radio" name="q9" id="q9" ><label class="form-check-label" for="q9_3">Затрудняюсь ответить</label>
+			</div>
+
+			<p class="nameq"> 10. Если говорить о сегодняшнем дне, хотели бы вы переехать на другое место жительства или остаться в месте проживания </p>
+    		<div class ="question1">
+				<div><input type="radio" name="q10" id="q10" ><label class="form-check-label" for="q10_1">1. Хотелось бы переехать в ближайшее время</label></div><br>
+				<div><input type="radio" name="q10" id="q10" ><label class="form-check-label" for="q10_2">2. Хотелось бы переехать спустя несколько лет</label></div><br>
+				<div><input type="radio" name="q10" id="q10" ><label class="form-check-label" for="q10_3">3. Хотелось бы остаться жить здесь</label></div><br>
+				<div><input type="radio" name="q10" id="q10" ><label class="form-check-label" for="q10_4">4. Затрудняюсь ответить</label></div><br>
+			</div>
+
+			<p class="nameq">11. Почему бы Вам хотелось переехать? </p>
+    		<div class ="question1">
+				<div><input type="radio" name="q11" id="q11" ><label class="form-check-label" for="q11_1">1. Улучшить финансовое благосостояние</label></div><br>
+				<div><input type="radio" name="q11" id="q11" ><label class="form-check-label" for="q11_2">2. Сменить климатическую зону</label></div><br>
+				<div><input type="radio" name="q11" id="q11" ><label class="form-check-label" for="q11_3">3. Улучшить доступ к выбору работы</label></div><br>
+				<div><input type="radio" name="q11" id="q11" ><label class="form-check-label" for="q11_4">4. Улучшить доступ к образованию</label></div><br>
+				<div><input type="radio" name="q11" id="q11" ><label class="form-check-label" for="q11_5">5. Улучшить доступ к медицинским услугам</label></div><br>
+				<div><input type="radio" name="q11" id="q11" ><label class="form-check-label" for="q11_6">6. Переехать ближе к родственникам</label></div><br>
+				<div><input type="radio" name="q11" id="q11" ><label class="form-check-label" for="q11_7">7. Начать жизнь с новой страницы</label></div><br>
+				<div><input type="radio" name="q11" id="q11" ><label class="form-check-label" for="q11_8">8. Найти спутника жизни</label></div><br>
+				<div><input type="radio" name="q11" id="q11" ><label class="form-check-label" for="q11_9">9. Получить возможность выражаться и проявлять себя</label></div><br>
+				<div><label class="form-check-label" for="q11_10">10. Другое </label><input type="text" name="q11" id="q11" placeholder="Введите текст"></div><br>
+			</div>
+			<div id="button2">
+				<button class="button" >Завершить тест</button> 
+			</div>
+	
+		</div>
+		
+	</div>
+
+
+
+
+
+	<script type="text/javascript">
+	
+
+		 
+    
+		
+	</script>
+
+</body>
+</html>
